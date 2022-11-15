@@ -1,0 +1,76 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: fantasy
+}
+
+body
+
+{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: rgb(255, 182, 36);
+}
+
+.loader
+{
+    position: relative;
+    display: flex;
+}
+
+.loader span
+{
+    /* position: relative; 
+    display: inline-block; */
+    font-size: 2em;
+    color: beige;
+    display: block;
+    text-transform: uppercase;
+    /* animation: animate 2s ease-in-out infinite;
+    animation-delay: calc(0.1s* var(--i));
+    animation-play-state: paused; */
+    transition: all .3s ease-in-out;
+}
+/* 
+.loader:hover span 
+{
+animation-play-state: running;
+}
+
+@keyframes animate
+{
+    0%,40%,100%
+    {
+        transform: translateY(0);
+    }
+    20%
+    {
+        transform: translate(-50);
+    }
+} */
+
+.k:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.o:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.m:hover {
+    transform: translateY(-10px) rotate(16deg);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.e:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
